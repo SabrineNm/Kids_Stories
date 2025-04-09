@@ -1,0 +1,56 @@
+head { 
+    background-color: rgb(59, 152, 184); 
+}
+
+h1 {
+    text-align:center;
+    color: deeppink;
+}
+
+h2 {
+    color: rgb(202, 116, 202);
+}
+
+p {
+    color: #4CAF50;
+}
+
+img {
+    width:700px;
+    height:300px;
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    height: 50vh; 
+    font-size: x-large;       
+}
+
+.cadre {
+    border: 2px solid #4CAF50; /* Bordure verte */
+    padding: 20px; /* Espace autour du texte */
+    margin: 20px; /* Marge autour du cadre */
+    background-color: #f9f9f9; /* Couleur de fond claire */
+    border-radius: 10px; /* Coins arrondis */
+    font-family: Arial, sans-serif; /* Police */
+    color: #333; /* Couleur du texte */
+}
+.centered {
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.item {
+
+        background-color: blanchedalmond;
+}
+
